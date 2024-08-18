@@ -11,5 +11,10 @@
       "url": "https://cdn.jsdelivr.net/npm/tsup/schema.json",
       "fileMatch": ["package.json", "tsup.config.json"]
     }
-  ]
+  ],
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#3F2911",
+    "titleBar.activeBackground": "#583918",
+    "titleBar.activeForeground": "#FDFAF6"
+  }
 }
