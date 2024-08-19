@@ -43,14 +43,14 @@ app.use(openAPIRouter);
 app.use(errorHandler());
 
 bot.launch();
-bot.command("start", (ctx: any) => {
-  console.log("start context", ctx);
-  bot.telegram.sendMessage(
-    ctx.chat.id,
-    "Hello there! Welcome to the Chipmunk Kombat App. respond to /info. Please try it",
-    {}
-  );
-});
+// bot.command("start", (ctx: any) => {
+//   console.log("start context", ctx);
+//   bot.telegram.sendMessage(
+//     ctx.chat.id,
+//     "Hello there! Welcome to the Chipmunk Kombat App. respond to /info. Please try it",
+//     {}
+//   );
+// });
 
 bot.command("info", (ctx: any) => {
   console.log(ctx);
