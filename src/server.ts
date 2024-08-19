@@ -54,19 +54,19 @@ bot.command("start", (ctx: any) => {
 
 bot.command("info", (ctx: any) => {
   console.log(ctx);
-  bot.telegram.setChatMenuButton({
-    // chat_id: ctx.chat.id,
-    menu_button: {
-      /** Button type, must be web_app */
-      type: "web_app",
-      /** Text on the button */
-      text: "Yo",
-      /** Description of the Web App that will be launched when the user presses the button. The Web App will be able to send an arbitrary message on behalf of the user using the method answerWebAppQuery. */
-      web_app: {
-        url: "https://t2e-telegram-game.netlify.app/?referralParam=testing123",
-      },
-    },
-  });
+  // bot.telegram.setChatMenuButton({
+  //   // chat_id: ctx.chat.id,
+  //   menu_button: {
+  //     /** Button type, must be web_app */
+  //     type: "web_app",
+  //     /** Text on the button */
+  //     text: "Yo",
+  //     /** Description of the Web App that will be launched when the user presses the button. The Web App will be able to send an arbitrary message on behalf of the user using the method answerWebAppQuery. */
+  //     web_app: {
+  //       url: "https://t2e-telegram-game.netlify.app/?referralParam=testing123",
+  //     },
+  //   },
+  // });
 });
 
 bot.command("ethereum", (ctx: any) => {
