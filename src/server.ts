@@ -55,7 +55,7 @@ bot.command("start", (ctx: any) => {
 bot.command("info", (ctx: any) => {
   console.log(ctx);
   bot.telegram.setChatMenuButton({
-    chat_id: ctx.chat.id,
+    // chat_id: ctx.chat.id,
     menu_button: {
       /** Button type, must be web_app */
       type: "web_app",
